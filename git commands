@@ -1,0 +1,19 @@
+*git track files not directories
+-git init     ,,initialize git project.
+-git status ,,to know status of our repo.
+*working directory: current directory
+  local repo: copy of repo in local machine
+  stage area: what files ready to committed.
+  remote repo: repo on server
+-git add file_name  ,,add files to stage area to be ready to be included in commit.
+-git add .  ,,add all from current root to depth.
+-git add ..  ,,add all of 
+-git commit -m”message”  ,, to put files which were in stage are to commit
+-git log   ,,it list the commits in the project.
+-git log --oneline ,, list the commits summarized.
+-git log --oneline  --graph,, list the commits summarized and graphed.
+-git config --global  user.name (or) email  
+-git show id_of_commit  ,,to show the history of commit
+-git diff id1 id2 ,,to show different between 2 commits.
+
+
