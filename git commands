@@ -7,7 +7,7 @@
   remote repo: repo on server
 -git add file_name  ,,add files to stage area to be ready to be included in commit.
 -git add .  ,,add all from current root to depth.
--git add ..  ,,add all of 
+-git add --all  ,,add all changes in the progect 
 -git commit -m”message”  ,, to put files which were in stage are to commit
 -git log   ,,it list the commits in the project.
 -git log --oneline ,, list the commits summarized.
@@ -15,5 +15,14 @@
 -git config --global  user.name (or) email  
 -git show id_of_commit  ,,to show the history of commit
 -git diff id1 id2 ,,to show different between 2 commits.
-
-
+*every commit point to its previous commit.
+*every branch has pointer (branch name) & head pointer points to last commit and head can moved by :
+-git checkout id 
+*(head→master)
+	master is pointer point to last commit in master branch
+	so now head pointer point to what master pointer point to 
+	-to change it:
+-git checkout commit_id 
+-git checkout master ,,head pointer go again to last commit in the branch
+-git branch ,,list branches.
+*different commits aren’t different copies of a file, it is changes in lines of the file. 
