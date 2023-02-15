@@ -25,4 +25,8 @@
 -git checkout commit_id 
 -git checkout master ,,head pointer go again to last commit in the branch
 -git branch ,,list branches.
-*different commits aren’t different copies of a file, it is changes in lines of the file. 
+*different commits aren’t different copies of a file, it is changes in lines of the file. (git track changes of lines of file not track different files).
+-git remote add origin repo_https_link ,,to put the remote repo link in variable(origin) in my project 	“link my project with remote repo”.
+-git remote ,,list my remotes
+-git remote -v ,,list my remotes with its links
+-git push origin master  ,,to push the repo the the GitHub repo.
