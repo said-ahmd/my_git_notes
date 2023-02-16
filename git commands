@@ -27,12 +27,27 @@
 -git branch ,,list branches.
 *different commits aren’t different copies of a file, it is changes in lines of the file. (git track changes of lines of file not track different files).
 *****remote repo****
--git remote add origin repo_https_link ,,to put the remote repo link in variable(origin) in my project 	“link my project with remote repo”.
+-git remote add origin repo_https_link ,,to put the remote repo link in variable(origin) in my project 	“link my project with remote repo”. 
 -git remote ,,list my remotes
 -git remote -v ,,list my remotes with its links
 -git push origin master  ,,to push the repo the the GitHub repo.
 -git pull origin master  ,,to pull the remote repo the my local repo
 -git remote rm remote_name  ,,to delete it
-*****undo changes****
-git revert commit_id    ,,it make new commit with changes was happened in this commit.
+*****undo changes****local****
+-git revert commit_id    ,,it make new commit but without changes was happened in this only commit  				    even it was old one. and this also will be done actually in my own projects “the 			    undo of this commit”.
+		“I can do revert to the revert to go to before doing it”
 
+-git reset commit_id (or) git reset --mixed commit_id   ,,the commit will be go back to working 									       directory.
+-git reset  --soft commit_id  ,,will go back to stage area.
+-git reset --hard commit_id  ,,will be deleted from device
+
+//don’t use reset use revert
+********
+-git clone project_repo_link  ,,to download the project as git projects
+****ssh********
+-ssh-keygen -t rsa -b 4096 -C “email” ,,to make ssh key so u don’t need to login every time (push,pull)
+ 
+
+
+
+my taken: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
