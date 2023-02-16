@@ -50,6 +50,4 @@
 -git branch   ,,to show branches
 -git branch new_branch_name   ,,to create new branches
 -git checkout branch_name   ,,to switch from brach to another 
-
-
-
+*****merge*****
