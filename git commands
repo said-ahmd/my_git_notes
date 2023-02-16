@@ -51,3 +51,15 @@
 -git branch new_branch_name   ,,to create new branches
 -git checkout branch_name   ,,to switch from brach to another 
 *****merge*****
+*remote: pull request”make new commit of merged”
+	 use pull request in remote from git hub.  (to pull”merge” the branch to master branch).
+	-git checkout master
+	-git pull origin master  ,,to update the local project. 
+*local: git merge “doesn't make new commit”
+	-git merge branch_name   ,,make fast-forward merge ”make master point to branch pointer”
+			        	        done when master is after the branch
+			               (m)
+	-base branch		       *****         (b)       →    *****       (m,b)
+	 new branch			     *****		       *****	
+	*used when u work in sub branch of the branch or when u want to merge master updates to your 	branch but when want to merge to master use pull request. 
+
