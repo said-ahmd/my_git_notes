@@ -46,8 +46,8 @@
 -git clone project_repo_link  ,,to download the project as git projects
 ****ssh********
 -ssh-keygen -t rsa -b 4096 -C “email” ,,to make ssh key so u don’t need to login every time (push,pull)
- 
-
-
-
-my taken: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
+****branch***** 
+-git branch   ,,to show branches
+-git branch new_branch_name   ,,to create new branches
+-git checkout branch_name   ,,to switch from brach to another 
+*****merge*****
